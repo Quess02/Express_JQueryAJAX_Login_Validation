@@ -7,7 +7,7 @@ $(document).ready(function(){
         var action = form.attr('action');
         var alertObj=document.getElementById('alert');
         var btn=document.getElementById('send');
-        //check this out
+       
         var formdata=form.serialize()
         console.log(formdata);
         $.ajax({
